@@ -1,0 +1,41 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 20px;
+    background-color: #f0f8ff; /* AliceBlue */
+}
+
+h1, h2 {
+    color: #ff6347; /* Tomato */
+}
+
+div {
+    margin-bottom: 20px;
+    border: 2px solid #4682b4; /* SteelBlue */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fffacd; /* LemonChiffon */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #32cd32; /* LimeGreen */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #228b22; /* ForestGreen */
+}
+
+input {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #4682b4; /* SteelBlue */
+}
+
+#toggleContent.hidden {
+    display: none;
+}
